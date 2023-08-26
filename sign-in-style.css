@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.signin-form {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #838383;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 50px;
+    padding-bottom: 5px;
+    height: 33px;
+    width: 350px;
+    font-size: 0.8 rem;
+    color: #1b1b1b;
+    background-color: #FFD814;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    border-color: #FCD200;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.t-and-c h6{
+    font-weight: 300;
+    text-align: left;
+}
+
+.need-help{
+    display: flex;
+}
+
+.need-help .fa-play{
+    font-size: 10px;
+    color: #474747;
+}
+
+.need-help h6{
+    color: #0066c0;
+    margin-left: 20px;
+}
+
+.need-help h6:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+.divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+a {
+    display: block;
+    color: #0066c0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}

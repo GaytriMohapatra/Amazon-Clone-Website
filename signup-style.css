@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img{
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #838383;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+input[type="tel"]{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.mobile-container {
+    display: flex;
+}
+
+
+#country-code {
+    flex: 0.4;
+}
+
+button {
+    padding: 10px 50px;
+    padding-bottom: 5px;
+    height: 33px;
+    width: 350px;
+    font-size: 0.8 rem;
+    color: #1b1b1b;
+    background-color: #FFD814;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    border-color: #FCD200;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+.password-info {
+    margin-top: -5px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.consent-info {
+    font-size: 12px;
+    color: #000000;
+    margin-top: -5px;
+}
+
+.sign-in-info {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.sign-in-info a {
+    color: #0066C0;
+    text-decoration: none;
+}
+
+.sign-in-info a:hover {
+    color: orange;
+    text-decoration: underline;
+}
